@@ -1,0 +1,16 @@
+<%- include('partials/head') %>
+
+
+
+    <%-include('partials/navbar')%>
+    <h1> Your random number is <%= rand %> </h1>
+    <% if( rand%2===0){ %> 
+    <h2>You got even number bro!</h2>    
+    <% }else{%> 
+    <h2>You got odd number bro!</h2>
+    <%}%>  
+
+
+
+
+<%-include('partials/tail') %>

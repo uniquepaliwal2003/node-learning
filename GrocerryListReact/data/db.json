@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "complete react"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "play football at 8"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "eat healthy "
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "eat green"
+    }
+  ]
+}

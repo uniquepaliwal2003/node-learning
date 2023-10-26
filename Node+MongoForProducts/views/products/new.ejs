@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Elements</title>
+</head>
+<body>
+    <h1> Lets create new element : </h1>
+    <form action="/products" method="POST" >
+        <section>
+            <label for="nameP">Name of the  Product :</label>
+            <input type="text" id="nameP" name="nameP" >
+        </section>
+        <br>
+        <section>
+            <label for="namePr">price of the Product: </label>
+            <input type="number" id="namePr" name="namePr">
+        </section>
+        <br>
+        <section>
+            <label for="nameC">Category of the Product : </label>
+            <select name="nameC" id="nameC">
+                <option value="#">NONE</option>
+                <% for( category of categories ){ %> 
+                <option value="<%=category%>"><%=category%></option>
+                <% } %> 
+            </select>
+        </section>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
